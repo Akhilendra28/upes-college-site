@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet"> <!--for font-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!--for logo-->
+            <a href="index.html"><img src="logo.png" alt="some error occur please restart"></a>  <!--logo image-->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!--for button-->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about- Copy.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Courses</h1>
+    </section>
+<!--------------OUR COURSES----------->
+
+<section class="courses">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> sapiente officia dolorem distinctio dignissimos repellendus mollitia et cum ducimus nisi.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo exercitationem obcaecati, quos enim soluta numquam eum. Beatae officia temporibus provident nostrum numquam hic labore minus asperiores, similique cumque magnam sint.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo exercitationem obcaecati, quos enim soluta numquam eum. Beatae officia temporibus provident nostrum numquam hic labore minus asperiores, similique cumque magnam sint.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo exercitationem obcaecati, quos enim soluta numquam eum. Beatae officia temporibus provident nostrum numquam hic labore minus asperiores, similique cumque magnam sint.</p>
+        </div>
+    </div>
+</section>
+
+<!--------------------facilities----------------->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ut voluptatibus, ducimus molestiae excepturi alias in soluta fugiat accusamus repudiandae!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="upeslibrary.jpg" alt="restart">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in nam recusandae distinctio veritatis delectus quia reprehenderit doloribus! Quia sint odio distinctio beatae sapiente voluptatibus?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="upesground.jpg" alt="restart">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in nam recusandae distinctio veritatis delectus quia reprehenderit doloribus! Quia sint odio distinctio beatae sapiente voluptatibus?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="upesfood.jpg" alt="restart">
+            <h3>Tasty And Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in nam recusandae distinctio veritatis delectus quia reprehenderit doloribus! Quia sint odio distinctio beatae sapiente voluptatibus?</p>
+        </div>
+    </div>
+</section>
+
+<!--------Footer---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nesciunt consequatur veritatis tenetur in. Ratione at, aperiam, <br> maxime magnam adipisci debitis iure dolorem cum nam voluptatem nostrum,<br> et labore eveniet eum?</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Akhilendra Pratap Singh</p>
+</section>
+
+
+
+
+
+
+
+
+<!--javascript for toggle menu-->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
